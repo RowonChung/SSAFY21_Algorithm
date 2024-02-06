@@ -24,6 +24,16 @@
 - Commit 메세지는 날짜/몇문제 형식으로 적는다. <br>
 - ex) 2024-01-22/2문제
 
+## git 올리는 법
+####클론하기
+```git clone (주소)```
+
+####깃 커밋 방법
+```git pull --rebase origin main```
+```git add (파일)```
+```git commit -m (메세지)```
+```git push origin main```
+
 ### 마크다운 문법
 - **제목:** `# 제목`
 - **리스트:** `- 항목`
