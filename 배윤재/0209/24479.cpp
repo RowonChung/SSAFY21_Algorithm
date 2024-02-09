@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -32,7 +32,7 @@ int main()
 		alis[to].push_back(from);
 	}
 
-	// Á¤·Ä
+	// ì •ë ¬
 	for (int i = 0; i < n; i++)
 	{
 		if (alis[i].size() == 0) continue;
