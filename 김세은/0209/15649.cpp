@@ -3,7 +3,6 @@ using namespace std;
 
 int visited[9] = {0};
 int result[9];
-string path;
 int N,M;
 void run(int level) {
     if (level == M) {
@@ -11,7 +10,7 @@ void run(int level) {
         for (int i = 0; i < M; i++) {
             cout << result[i] << " ";
         }
-        cout << endl;
+        cout << "\n";
         return;
     }
 
@@ -25,8 +24,13 @@ void run(int level) {
     }
 }
 
+
 int main() {
    
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+                              
     cin >> N >> M;
 
     run(0);
