@@ -41,9 +41,10 @@ int main() {
         nums.push_back(num);
     }
     sort(nums.begin(), nums.end());
+    
 
     run(M, 0); // 시작 인덱스를 0으로 설정
 
-    return 0;
+
 }
 
