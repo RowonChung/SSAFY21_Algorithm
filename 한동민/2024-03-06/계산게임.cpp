@@ -3,8 +3,6 @@
 #include <vector>
 using namespace std;
 
-
-
 int JOKER;
 deque<int> left_dq;
 deque<int> right_dq;
@@ -88,7 +86,7 @@ void init(int mJoker, int mNumbers[5])
 
 void putCards(int mDir, int mNumbers[5])
 {
-    int value;
+    int valu = 0;
     if (mDir == 0) {
         for (int i = 4; 0<=i; i--) {
             left_dq.push_front(mNumbers[i]);
