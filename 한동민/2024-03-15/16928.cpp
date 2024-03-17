@@ -23,7 +23,6 @@ bool isRange(int number) {
     return false;
 }
 
-
 int bfs() {
     priority_queue<NODE> pq;
     visit[1] = true;
