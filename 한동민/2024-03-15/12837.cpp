@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 #define ARRSIZE 1000000
 long long tree[4 * ARRSIZE];
 
