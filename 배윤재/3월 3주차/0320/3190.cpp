@@ -10,7 +10,7 @@ struct Move {
 int snake[101][101];
 int apple[101][101];
 
-// ¿ì ÇÏ ÁÂ »ó
+// ìš° í•˜ ì¢Œ ìƒ
 int dir[4][2] = { 0, 1, 1, 0, 0, -1, -1, 0 };
 int direct = 0;
 
