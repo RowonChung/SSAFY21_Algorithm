@@ -17,7 +17,7 @@ int main() {
 	}
 
 
-	// 1. ¿ŞÂÊ ³¡¿¡ ¹úÅë, ¿À¸¥ÂÊ ³¡¿¡ ¹ú
+	// 1. ì™¼ìª½ ëì— ë²Œí†µ, ì˜¤ë¥¸ìª½ ëì— ë²Œ
 	int sumHoney = temp;
 
 	sumHoney -= honey[n - 1];
@@ -34,7 +34,7 @@ int main() {
 
 	sumHoney = temp;
 
-	// 2. ¿À¸¥ÂÊ ³¡¿¡ ¹úÅë, ¿ŞÂÊ ³¡¿¡ ¹ú
+	// 2. ì˜¤ë¥¸ìª½ ëì— ë²Œí†µ, ì™¼ìª½ ëì— ë²Œ
 	sumHoney -= honey[0];
 	for (int i = n - 2; i >= 1; i--) {
 
@@ -47,7 +47,7 @@ int main() {
 	}
 	sumHoney += honey[0];
 
-	// 3. ¾çÂÊ ³¡¿¡ ¹ú
+	// 3. ì–‘ìª½ ëì— ë²Œ
 	sumHoney = 0;
 	int one = honey[1], two = 0;
 
